@@ -1,0 +1,38 @@
+.signup-section {
+    margin: 5% 20%;
+}
+
+.signup-section input {
+    width: 48%;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+.signup-section textarea {
+    width: 97%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.signup-section button {
+    width: 97%;
+    margin: 1%;
+    padding: 1%;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+    .signup-section {
+        margin: 15% 12.5%;
+    }
+
+    .signup-section input {
+        width: 97%;
+        padding: 3%;
+        margin: 3% 1%;
+    }
+
+    .signup-section button {
+        margin: 3% 1%;
+    }
+}

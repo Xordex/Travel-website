@@ -1,0 +1,44 @@
+.section-about {
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+    margin: 10vh auto;
+    font-size: 2rem;
+}
+
+.main-left,
+.main-right {
+    width: 50%;
+    padding: 2%;
+}
+
+.main-left img,
+.main-right img {
+    width: 80%;
+    margin: 3% 8%;
+}
+
+.main-left h2 {
+    padding-bottom: 2%;
+    border-bottom: 2px solid green;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+.section-about p {
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin: 2% 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .section-about {
+        display: block;
+    }
+
+    .main-left,
+    .main-right {
+        width: 100%;
+        padding: 2%;
+    }
+}
